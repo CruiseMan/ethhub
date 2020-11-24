@@ -89,7 +89,7 @@ Still TBD. Ideally we can get minimum requirements for all three setups mentione
 The key to being a validator is to ensure that you are consistently available to vote for blocks which in turn secures the network. Therefore, there is a slight penalty if your validator client goes offline at any point, in order to encourage validator availability. There are two scenarios where this can happen:
 
 1. If blocks are finalizing and you're offline, you can lose x% of your deposit over a year where x=current\_interest
-   * For example, if the current interest rate is 5%, you would lose 0.0137% of your deposit every day, but gain that for every day you're online.
+   * For example, if the current interest rate is 5%, you would lose 0.0138% of your deposit every day, but gain that for every day you're offline.
 2. If blocks aren't finalizing \(&gt;33% of validators are offline\) and you're offline, you can lose 60% in 18 days. 
 
 If at any point your deposit drops below 16 ETH you will be removed from the validator set entirely.
